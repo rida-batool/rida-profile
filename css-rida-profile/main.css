@@ -1,1 +1,59 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+:root {
+  --primary-color: #8F8C73;
+}
+
+body {
+  background: #FFFEFA;
+  margin: 3em;
+  font-family: 'Poppins';
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+
+.profilename .container .names {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: var(--primary-color);
+  display: inline-block;
+  text-align: left;
+  margin-inline: 4em;
+}
+
+.profilename .container .names span {
+  color: #EDDB25;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.profilepicture {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #d8cdcd;
+  border-radius: 50%;
+}
+
+.contact-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: none;
+  padding: 0;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-section .container ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.contact-section .container ul.location-heading li {
+  color: var(--primary-color);
+}
+/*# sourceMappingURL=main.css.map */
